@@ -1,7 +1,7 @@
-Project:
-![alt text](image-1.png)
+# Get Schooled Project
+![alt text](image.png)
 
 
 ## links
-[.html file] ()
+[.html file] (index.html)
 
