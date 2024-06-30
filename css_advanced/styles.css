@@ -44,3 +44,7 @@ address{
     display: flex;
     flex-direction: column;
 }
+section .class "unique"{
+    display: flex;
+    flex-direction: column;
+}
