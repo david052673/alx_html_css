@@ -17,7 +17,7 @@ img{
    flex-direction: row;
    justify-content:left
 }
-section {
+section .class ig{
     background-image: https://1drv.ms/i/c/d656fa0b57b871fa/EfBcUuVimNxGh3k4ybO2FeYBi6hjwG7YZ3fUXVfxGnftkg?e=lRdHC0;
     display: flex;
     justify-content: centre;
@@ -47,4 +47,9 @@ address{
 section .class "unique"{
     display: flex;
     flex-direction: column;
+}
+section{
+    display: flex;
+    flex-direction: row;
+
 }
