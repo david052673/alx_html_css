@@ -48,8 +48,13 @@ section .class "unique"{
     display: flex;
     flex-direction: column;
 }
-section{
+abbr{
     display: flex;
     flex-direction: row;
-
+}
+dd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
 }
