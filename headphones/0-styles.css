@@ -1,0 +1,87 @@
+/* colors */
+:root{
+    --white:#FFFFFF;
+    --grey:#979797;
+    --red: #FF6565;
+
+
+}
+/*--------------------------------------------General styles--------------------------------------------------------------*/
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    background:url(assets/background\ \(3\).jpg), no-repeat, fixed, center;
+    background-size: cover;
+    
+    
+
+}
+
+/*--------------------------------------------Button styles---------------------------------------------------------------*/
+button{
+    margin-top: 10%;
+    margin-left: 25%;
+    border: none;
+    border-radius: 100px;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 10px 20px 10px 20px ;
+}   
+.link a:hover{
+    color: var(--red);
+
+}
+/*--------------------------------------------Nav styles------------------------------------------------------------------*/
+ nav{
+    
+    padding-top: 20px;
+    padding-bottom: 25%;
+
+}
+.navlink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    
+
+}
+.flink {
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 2%;
+
+    
+}
+.flink a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+
+/*--------------------------------------------Container styles------------------------------------------------------------*/
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white);
+    
+}
+p {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
